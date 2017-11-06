@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>KITICE</title>
+		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
+		<meta name="author" content="htmlcoder.me">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- Bootstrap core CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+		<!-- Font Awesome CSS -->
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+		<!-- Plugins -->
+		<link href="css/animations.css" rel="stylesheet">
+
+		<!-- Worthy core CSS file -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- Custom css -->
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start -->
+		<!-- ================ -->
+		<header class="header fixed clearfix navbar navbar-fixed-top" style="background-color:#555">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+
+						<!-- header-left start -->
+						<!-- ================ -->
+						<div class="header-left clearfix">
+
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<a href="#banner"><img id="logo" style="width:80px" src="images/logo.png" alt="Worthy"></a>
+							</div>
+
+							<!-- name-and-slogan -->
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name" style="font-size:40px;"><a href="#banner"></a></div>
+								<!-- <div class="site-slogan">Free Bootstrap Theme by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a></div> -->
+							</div>
+
+						</div>
+						<!-- header-left end -->
+
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right clearfix">
+
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li><a href="/">Home</a></li>
+												<li><a href="/papersubmission">Paper Submission</a></li>
+												<li><a href="/registration">Registration</a></li>
+												<li><a href="/venue">Venue</a></li>
+												<li><a href="/contact">Contact</a></li>
+												<li><a href="/blog">Blog</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+
+    <div>
+      <div class="" style="margin-top:120px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h1 style="font-size:42px;margin-top:32px;color:#333">Conference</h1>
+              <hr style="border:1px solid #000">
+              <h2 style="color:#555;text-decoration:none">Conference Venue</h3>
+              <p style="color:#555;font-size:18px">The KITICE-2017 will be held at the KalaignarKarunanidhi Institute of Technology.</p>
+              <h2 style="color:#555;padding-top:22px;">Address</h2>
+              <p style="color:#555;font-size:18px">KalaignarKarunanidhi Institute of Technology,<br>Kannampalayam,<br>
+              Coimbatore,<br>
+            TamilNadu.</p>
+          </div>
+          <div class="" style="margin-top:50px;">
+            <div class="container">
+              <div id="map"></div>
+              <script>
+                function initMap() {
+                  var uluru = {lat: 10.999973, lng: 77.084866};
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 16,
+                    center: uluru
+                  });
+                  var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                  });
+                }
+              </script>
+            </div>
+          </div>
+        <footer id="footer">
+          <div class="subfooter">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-center">Copyright © 2017 Design by <a target="_blank" href="#e">Baymax & Team</a>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        </div>
+      </div>
+    </div>
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs19aJivR891gJeQOrzT6_wHuffhqiu9w&callback=initMap">
+    </script>
+
+  </body>
+  </html>
